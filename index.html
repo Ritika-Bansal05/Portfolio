@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="home" id="home">
+    <div class="navbar" id="nav">
+        <div id="left">
+            <p>Turning ideas into attractive websites.<p>
+        </div>
+        <div id="right">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left-content">
+          <h1>Hi,I'm <span>Ritika</span></h1>
+          <div class="text-animate">
+            <h3 id = "role"><span>W</span><span>E</span><span>B</span><span> </span><span>D</span><span>E</span><span>V</span><span>E</span><span>L</span><span>O</span><span>P</span><span>E</span><span>R</span></h3>
+          </div>
+          <p>
+            Hey there! I'm Ritika — an aspiring web developer.
+            I'm learning to turn ideas into functional, beautiful websites,a passionate web development learner building skills in HTML, CSS, JavaScript, and beyond.
+            I love creating engaging web experiences while learning the tools that power the internet.
+            Currently exploring the world of web development one line of code at a time.
+          </p>
+          <div class="btn">
+            <button class = "btn1">Open to Opportunities</button>
+            <button class = "btn2" onclick="location.href='#contact'">Let's Collaborate</button>
+          </div>
+        </div>
+        <div class="right-content">
+            <img src="mine-removebg-preview.png" alt="">
+        </div>
+    </div>
+  </section>
+
+  <section class="about-us" id="about">
+    <h2 class="section-title">ABOUT ME</h2>
+    <div class="aboutus">
+    <div class="image-container">
+      <img id="img1" src="mine-removebg-preview.png" alt="">
+      <div class="scrolling-text">
+        <div class="scroll">WEB DEVELOPER WEB DEVELOPER WEB DEVELOPER WEB DEVELOPER WEB DEVELOPER</div>
+      </div>
+    </div>
+    <div class="text">
+      <p>I'm Ritika, a passionate Frontend Developer skilled in HTML, CSS, and JavaScript.I love creating responsive and user-friendly websites.
+My focus is on clean code, smooth animations, and modern UI design.I've built several projects to apply and grow my skills.
+Currently, Im exploring advanced concepts like React.Always excited to learn, build, and collaborate on new ideas!
+      </p>
+    </div>
+    </div>
+  </section>
+
+  <section class="education-section" id="education">
+    <h2 id="edu-text" class="section-title">EDUCATION</h2>
+    <div class="bubble-container">
+      <div class="bubble-wrapper">
+        <div class="bubble">
+          <div class="bubble-front">
+            <i class="fa-solid fa-school"></i>
+            <h3>Class 10</h3>
+          </div>
+          <div class="bubble-back">
+            <p>Dyal Singh Public School, Jagadhri, Yamunanagar<br>Passed in 2020</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bubble-wrapper">
+        <div class="bubble">
+          <div class="bubble-front">
+            <i class="fa-solid fa-book-open"></i>
+            <h3>Class 12 (PCM)</h3>
+          </div>
+          <div class="bubble-back">
+            <p>Dyal Singh Public School, Jagadhri, Yamunanagar<br>Passed in 2022</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bubble-wrapper">
+        <div class="bubble">
+          <div class="bubble-front">
+            <i class="fa-solid fa-user-graduate"></i>
+            <h3>B.Tech. Computer Science</h3>
+          </div>
+          <div class="bubble-back">
+            <p>J.C. Bose UST, YMCA, Faridabad<br>2023–2027</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">MY SKILLS</h2>
+    <div class="skills-section">
+    <div class="skills-left">
+      <div class="skill" data-info="Structure of webpages using semantic tags."><i class="ri-html5-fill"></i><h2>HTML</h2></div>
+      <div class="skill" data-info="Styling pages with Flexbox, Grid, animations."><i class="ri-css3-fill"></i><h2>CSS</h2></div>
+      <div class="skill" data-info="Logic, DOM manipulation, ES6 features."><i class="ri-javascript-fill"></i><h2>JavaScript</h2></div>
+      <div class="skill" data-info="A fast and efficient programming language widely used for problem-solving and competitive programming."><i class="devicon-cplusplus-plain"></i><h2>C++</h2></div>
+      <div class="skill" data-info="Component-based UI building with JSX."><i class="ri-reactjs-line"></i><h2>REACT</h2></div>
+      <div class="skill" data-info="Handles the server-side logic, databases, and APIs to make websites and apps work behind the scenes."><i class="ri-macbook-fill"></i><h2>Currently exploring Backend Development</h2></div>
+      <div class="skill-info" id="skillInfo">Hover over a skill to see details</div>
+    </div>
+  <div class="skills-right">
+    <img src="skill2-removebg-preview.png" alt="Skills Image" />
+  </div>
+  </div>
+</section>
+
+<section id="contact" class>
+  <h2 class="section-title">CONTACT ME</h2>
+  <div id="contactus">
+  <div class="glass-card">
+    <h2 class="typewriter">Let's work together!</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button class ="formBtn" type="submit">Send Message</button>
+    </form>
+  </div>
+</div>
+</section>
+
+<div class="social-toggle">
+  <div class="social-icons">
+    <a href="https://github.com/Ritika-Bansal05" target="_blank"><i class="ri-github-fill"></i></a>
+    <a href="https://www.linkedin.com/in/ritika-bansal-441ab7372/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+    <a href="https://instagram.com/1705._.ritika/" target="_blank"><i class="ri-instagram-fill"></i></a>
+  </div>
+  <div class="toggle-button">
+    <i class="ri-links-fill"></i>
+  </div>
+</div>
+
+<div id="cursor"></div>
+<div id="cursor-blur"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
